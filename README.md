@@ -5,7 +5,7 @@
 ```rust
 #[test]
 fn main() {
-  let vbe = vb::e([123, 1, 3]);
+  let vbe = vb::e([254, 1, 3]);
   dbg!(&vbe);
   dbg!(vb::d(vbe).unwrap());
 }
@@ -18,14 +18,15 @@ run
 
 ```txt
 + cargo test --all-features -- --nocapture
-     Running tests/main.rs (target/debug/deps/main-f20b54c7b6ae64a3)
+     Running tests/main.rs (target/debug/deps/main-65c7e4de979d0b09)
 [tests/main.rs:4] &vbe = [
-    123,
+    254,
+    1,
     1,
     3,
 ]
 [tests/main.rs:5] vb::d(vbe).unwrap() = [
-    123,
+    254,
     1,
     3,
 ]
