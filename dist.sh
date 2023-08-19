@@ -5,7 +5,7 @@ cd $DIR
 set -ex
 
 ./run.sh >out.txt
-# sed -i -e '2,4d' -e '$d' out.txt
+sed -i -e '2,4d' -e '$d' out.txt
 
 mdi
 
