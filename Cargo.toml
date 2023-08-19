@@ -1,11 +1,11 @@
 [package]
 name = "vb"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 license = "BSL-1.0"
 homepage = "https://github.com/xxai-art/vb"
 repository = "https://github.com/xxai-art/vb"
-description = ""
+description = "vbyte encode / decode"
 
 [dependencies]
 thiserror = "1.0.47"
