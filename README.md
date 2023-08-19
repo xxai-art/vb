@@ -17,17 +17,17 @@ run
 [→ out.txt](out.txt)
 
 ```txt
-
-
-
-running 1 test
-test main ... ok
-
-test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
-
-
-running 0 tests
-
-test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
++ cargo test --all-features -- --nocapture
+     Running tests/main.rs (target/debug/deps/main-f20b54c7b6ae64a3)
+[tests/main.rs:4] &vbe = [
+    123,
+    1,
+    3,
+]
+[tests/main.rs:5] vb::d(vbe).unwrap() = [
+    123,
+    1,
+    3,
+]
 ```
 
